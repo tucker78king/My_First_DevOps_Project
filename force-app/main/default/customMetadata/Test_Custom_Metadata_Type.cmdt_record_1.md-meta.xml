@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>cmdt record 1</label>
+    <protected>false</protected>
+    <values>
+        <field>cmdt_boolean_field__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>cmdt_text_filed__c</field>
+        <value xsi:type="xsd:string">testing cmdt tect field</value>
+    </values>
+</CustomMetadata>
