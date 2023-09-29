@@ -6,8 +6,21 @@
         <field>Account.AccTestField__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Test_Custom_Metadata_Type__mdt.cmdt_boolean_field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Test_Custom_Metadata_Type__mdt.cmdt_text_filed__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test_Custom_Metadata_Type__mdt-Test Custom Metadata Type Layout</layout>
     </layoutAssignments>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
@@ -641,6 +654,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ShowCompanyNameAsUserBadge</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SlackServiceUser</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
